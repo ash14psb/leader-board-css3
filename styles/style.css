@@ -162,6 +162,21 @@ hr{
 /* Media Queries */
 /* Mobile Devices */
 @media only screen and (max-width:688px){
+    .head{
+        width: 100%;
+    }
+    .head-logo{
+        display: flex;
+        padding-left: 10px;
+    }
+    .navigation{
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    nav li a{
+        margin-left: 0;
+        margin-right: 10px;
+    }
     .container{
         width: 100%;
     }
@@ -175,6 +190,16 @@ hr{
 }
 /* tablet devices */
 @media only screen and (min-width: 688px) and (max-width: 992px){
+    .head{
+        width: 100%;
+    }
+    .head-logo{
+        display: flex;
+        padding-left: 25px;
+    }
+    .navigation{
+        padding-left: 10px;
+    }
     .container{
         width: 100%;
     }
